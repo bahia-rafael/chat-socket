@@ -1,0 +1,32 @@
+{
+  "name": "chat-socket",
+  "version": "1.0.0",
+  "description": "Chat básico usando NodeJS e Socket.IO",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon chat/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahia-rafael/chat-socket.git"
+  },
+  "author": "Rafael Bahia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahia-rafael/chat-socket/issues"
+  },
+  "homepage": "https://github.com/bahia-rafael/chat-socket#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "jsontoxml": "^1.0.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
